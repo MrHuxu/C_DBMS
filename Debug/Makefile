@@ -15,7 +15,7 @@
 
 
 
-
+VPATH = /home/huxu/Anjuta-Projects/C_DBMS
 pkgdatadir = $(datadir)/c_dbms
 pkgincludedir = $(includedir)/c_dbms
 pkglibdir = $(libdir)/c_dbms
@@ -155,7 +155,7 @@ CATALOGS =
 CATOBJEXT = .gmo
 CC = gcc
 CCDEPMODE = depmode=gcc3
-CFLAGS = -g -O2
+CFLAGS = -g -O0
 CPP = gcc -E
 CPPFLAGS = 
 CYGPATH_W = echo
@@ -201,7 +201,7 @@ LTLIBOBJS =
 MAKEINFO = ${SHELL} /home/huxu/Anjuta-Projects/C_DBMS/missing --run makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /bin/mkdir -p
-MKINSTALLDIRS = ./mkinstalldirs
+MKINSTALLDIRS = /home/huxu/Anjuta-Projects/C_DBMS/mkinstalldirs
 MSGFMT = /usr/bin/msgfmt
 MSGFMT_OPTS = -c
 MSGMERGE = /usr/bin/msgmerge
@@ -231,9 +231,9 @@ STRIP = strip
 USE_NLS = yes
 VERSION = 0.1
 XGETTEXT = /usr/bin/xgettext
-abs_builddir = /home/huxu/Anjuta-Projects/C_DBMS
+abs_builddir = /home/huxu/Anjuta-Projects/C_DBMS/Debug
 abs_srcdir = /home/huxu/Anjuta-Projects/C_DBMS
-abs_top_builddir = /home/huxu/Anjuta-Projects/C_DBMS
+abs_top_builddir = /home/huxu/Anjuta-Projects/C_DBMS/Debug
 abs_top_srcdir = /home/huxu/Anjuta-Projects/C_DBMS
 ac_ct_AR = ar
 ac_ct_CC = gcc
@@ -279,12 +279,12 @@ program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
-srcdir = .
+srcdir = /home/huxu/Anjuta-Projects/C_DBMS
 sysconfdir = ${prefix}/etc
 target_alias = 
 top_build_prefix = 
 top_builddir = .
-top_srcdir = .
+top_srcdir = /home/huxu/Anjuta-Projects/C_DBMS
 SUBDIRS = src po
 c_dbmsdocdir = ${prefix}/doc/c_dbms
 c_dbmsdoc_DATA = \
