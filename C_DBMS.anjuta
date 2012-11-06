@@ -7,11 +7,11 @@
                  attribute="Interfaces"
                  value="IAnjutaProjectManager"/>
 	</plugin>
-	<plugin name= "Autotools backend"
+	<plugin name= "Makefile backend"
             mandatory="yes">
          <require group="Anjuta Plugin"
                   attribute="Location"
-                  value="am-project:AmpPlugin"/>
+                  value="mk-project:MkpPlugin"/>
     </plugin>
 	<plugin name="Symbol Browser"
             url="http://anjuta.org/plugins/"

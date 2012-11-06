@@ -1,25 +1,26 @@
 [Anjuta]
 Maximized=1
-Geometry=1024x691+0+24
+Geometry=1366x712+0+27
 
 [Project Manager]
 Shortcut=C_DBMS//src//c_dbms
 Expand=C_DBMS%%%C_DBMS//src%%%C_DBMS//src//c_dbms
 
 [File Loader]
-Files=../../src/join.h#98%%%../../src/throwError.h#15%%%../../src/structs.h#1%%%../../src/insert.h#85%%%../../src/update.h#59%%%../../src/main.c#1%%%../../src/drop.h#23%%%../../src/explainSQL.h#15
+Files=../../src/join.h#1%%%../../src/createTable.h#1%%%../../src/main.c#1
 
 [Document Manager]
 bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
 
 [Execution]
-Program uri=../../src/c_dbms
+Program arguments=
+Program uri=../../Debug/src/c_dbms
 Run in terminal=2
 Working directories=../../../C_DBMS
 
 [Build]
 Configuration list=1:Default:%%%1:Debug:Debug%%%1:Profiling:Profiling%%%1:Optimized:Optimized
-Selected Configuration=Default
+Selected Configuration=Debug
 BuildArgs/Default=--enable-maintainer-mode
 BuildArgs/Debug=--enable-maintainer-mode 'CFLAGS=-g -O0' 'CXXFLAGS=-g -O0' 'JFLAGS=-g -O0' 'FFLAGS=-g -O0'
 BuildArgs/Profiling=--enable-maintainer-mode 'CFLAGS=-g -pg' 'CXXFLAGS=-g -pg' 'JFLAGS=-g -pg' 'FFLAGS=-g -pg'
